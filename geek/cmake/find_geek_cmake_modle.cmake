@@ -3,11 +3,6 @@ find_path(GEEK_CMAKE_MODULE_PATH
   dependencies.cmake
   PATHS 
   ${PROJECT_SOURCE_DIR}/cmake
-  ${PROJECT_SOURCE_DIR}/../cmake
-  ${PROJECT_SOURCE_DIR}/../../cmake
-  ${PROJECT_SOURCE_DIR}/../../../cmake
-  ${PROJECT_SOURCE_DIR}/../../../../cmake
-  ${PROJECT_SOURCE_DIR}/../../../../../cmake
   NO_DEFAULT_PATH
 )
 
