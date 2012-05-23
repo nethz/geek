@@ -1,6 +1,0 @@
-
-EXPORTS	
-	dll_start_plugin
-	dll_stop_plugin
-	dll_initialise_plugin
-	dll_shutdown_plugin
