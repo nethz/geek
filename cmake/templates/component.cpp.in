@@ -1,0 +1,16 @@
+#include "stable_headers.hpp"
+
+#include "@component_name@.hpp"
+using namespace Orz;
+using namespace geek;
+
+@component_name@::@component_name@(void):@COMPONENT_CPP_INTERFACES@
+{
+@COMPONENT_CPP_BIND@
+@COMPONENT_CPP_ADD@
+}
+@component_name@::~@component_name@(void)
+{
+}
+
+@COMPONENT_CPP_FUNCTIONS@
