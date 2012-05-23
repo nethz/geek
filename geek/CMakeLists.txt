@@ -39,7 +39,6 @@ include(dependencies)
 include(toolkits)
 include(view)
 include(framework)
-include(game_made_in_geeks)
 include(select_compiler)
 include(UseDoxygen)
 
@@ -106,8 +105,6 @@ project_begin()
 	foreach(include_path ${geek_include_path})
 		install(DIRECTORY ${include_path}/geek DESTINATION . PATTERN "CVS" EXCLUDE PATTERN ".svn" EXCLUDE)
 	endforeach(include_path)
-	
-	geek_made_in_geeks()
 	
 project_end()
 
