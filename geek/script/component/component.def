@@ -1,0 +1,4 @@
+
+EXPORTS	
+	dll_start_plugin
+	dll_stop_plugin

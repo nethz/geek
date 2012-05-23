@@ -1,0 +1,16 @@
+#ifndef _@name@_component_
+#define _@name@_component_
+#include "stable_headers.hpp"
+@COMPONENT_HPP_INCLUDE@
+namespace geek
+{
+    class @component_name@: public Orz::Component
+	{
+	public:
+		@component_name@(void);
+		virtual ~@component_name@(void);
+	private:
+@COMPONENT_HPP_INTERFACES@@COMPONENT_HPP_FUNCTIONS@
+	};
+};
+#endif

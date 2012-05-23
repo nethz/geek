@@ -1,0 +1,15 @@
+#ifndef __geek_@name@_interface_h__
+#define __geek_@name@_interface_h__
+
+#include <orz/Toolkit_Component_Task/Component/ComponentInterface.h>	
+namespace geek
+{
+	class @name@_interface: public Orz::ComponentInterface
+	{
+	public:
+@functions@
+	};
+
+
+}
+#endif

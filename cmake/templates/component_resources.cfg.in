@@ -1,0 +1,5 @@
+# Resources required by the sample browser and most samples.
+
+
+[@COMPONENT_NAME@]
+FileSystem=@COMPONENT_MEDIA_DIR@/
